@@ -52,6 +52,12 @@ And Laravel: https://laravel.com/docs/10.x
 5. In your terminal run `php artisan key:generate`
 6. Run `php artisan migrate --seed` to create the database tables and seed the roles and users tables
 7. Run `php artisan storage:link` to create the storage symlink (if you are using **Vagrant** with **Homestead** for development, remember to ssh into your virtual machine and run the command from there).
+8. chmod -R 777 storage
+9. chmod -R 777 bootstrap/cache/
+10. php artisan session:table
+11. php artisan migrate
+12. npm install
+13. npm run build
 
 
 ## Usage
